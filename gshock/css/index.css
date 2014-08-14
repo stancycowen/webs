@@ -1,0 +1,73 @@
+*{margin: 0;padding: 0;}
+img{border: 0;vertical-align: middle;}
+ul,li{list-style: none;}
+a{color: #000;text-decoration: none;}
+section{display: block;}
+
+#gb1-hd{width: 100%;height: 70px;z-index: 1200;position: fixed;top: 0;background: linear-gradient(to right, rgba(33, 33, 33, 0.97) 0%, rgba(33, 33, 33, 0.97) 100%);}
+
+.tabs{float: right;display: block;position: absolute;top: 0;right: 35px;}
+
+.inner{width: 980px;margin: 0 auto;padding: 0 5px;}
+.inner{height: 70px;overflow: static;}
+.innerS{width: 980px;margin: 0 auto;padding: 0 5px;}
+.logoHdr{display: block;height: 110px;width: 120px;}
+#gb1nav{list-style-type: none;float: right;position: absolute;right: 200px;bottom: -18px;padding: 0;margin: 0;padding-bottom: 9px;}
+.logo{width: 280px;height: 66px;background: transparent url(images/logo-header.png) no-repeat left center;position: absolute;}
+#sub-gb1-nav{list-style-type: none;float:  right;position: absolute;right: 0;bottom: 28px;padding: 0;margin: 0;padding-bottom: 9px;font-size: 8px;}
+#gb1nav li{float: left;}
+#gb1nav li a{color: #fff;text-transform: uppercase;float: left;margin-left: 5px;margin-right: 5px;font-weight: bold;font-size: 14px;display: inline-block;padding-bottom: 16px;text-shadow:0px -1px black;padding-top: 8px;font-family: Lucida Sans Unicode;font-style: normal;font-weight: 700;letter-spacing: 0.07em;}
+.nav-babyG{width: 32px;background-image: url(images/babyg-logo.png);}
+.icon-nav{background-position: center top;background-repeat: no-repeat;margin-right: 0;margin-left: 3px;text-indent: -999em;}
+.nav-map{width: 32px;background-image: url(images/nav-map.png);}
+.nav-contact{width: 32px;background-image: url(images/nav-contact.png);}
+.nav-support{width: 32px;background-image: url(images/nav-manual.png);}
+.nav-world{width: 32px;background-image: url(images/nav-world.png);}
+.nav-search{width: 32px;background-image: url(images/nav-search.png);}
+/*提示*/
+.toolTip{z-index: 1201;opacity: 0;position: absolute;padding: 5px 10px;z-index: 800;line-height: 1.4;color: #777;width: 100px;text-align: center;text-transform: uppercase;top: 40px;}
+.toolTip{ border: none;,margin-left: -34px;border-radius: 5px 5px 5px 5px;font-size: 12px;text-indent: 0; pointer-events:none;cursor: default;text-shadow:none;background: #fefefe;}
+.toolTip:before{content: ".";display: block;position: absolute;top: -8px;left: 50%;margin-left: -8px;width: 0;height: 0;border-left: 8px solid transparent;border-right: 8px solid transparent;border-bottom: 8px solid #fefefe;z-index: 901;}
+
+/*滚动图片*/
+.content{display: block;width: 100%;text-align: center;}
+
+.cycle-pager-active{color: red;}
+.cycle-slide-active{display:block!important;}
+/*中间文字*/
+h2{text-align: center;text-transform: uppercase;font: normal 36px/0.9 "museo-slab";}
+h2{margin: 0.83em 0;}
+h3{text-transform: uppercase;font: normal 24px/0.9 "museo-slab";margin: 0.75em 0;}
+#ticker li{height: 40px;width: 100%;font: bold 14px/20px Helvetica, Arial, sans-serif;color: #000;margin-left: -20px;text-align: center;}
+b{font-weight: bold;}
+#ticker li a{color: #00349a;text-decoration: none;}
+.featured-content{padding: 1em 0 3em 0em;text-align: center;}
+.col1{width: 319px;height: auto;display: inline-table;}
+p{text-align: center;color: #828282;font: normal 12px/15px "proxima-nova", sans-serif;width: 85%;margin: 0 auto 1.5em auto;font: bold;}
+.col1 h3{text-align: center;text-transform: uppercase;color: #333333;font: bold 18px/18px "futura-bold", sans-serif;}
+.img-container{height: 179px;background-color: #eee;width: 300px;margin: 5px auto;box-shadow: 0 6px 8px 2px rgba(0,0,0,0.3);overflow: hidden;}
+.img-container img{padding: 5px;}
+/*栏目1*/
+.overflow-hidden{overflow: hidden;}
+.clearfix:before{content: " ";display: table;}
+.clearfix:after{clear: both;}
+.multi-container{border: 10px solid #ebebeb;background-color: #000000;margin: 5px auto;box-shadow: 0 6px 9px 6px rgba(0,0,0,0.3);overflow: hidden;}
+.links-overlay{position: relative;margin-bottom: 100px;}
+.text-center{text-align: center!important;}
+.links-overlay a{display: inline-block;position: relative;margin: 0;float: left;}
+.copy{color: #fff;position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;right: 0;text-align: left;zoom:1;opacity: 0;background-color: #191919;}
+..multi-container a div{display: inline-block;height: 100%;vertical-align: middle;}
+.links-overlay h3{margin: 10px 10px 0px;font-family: Lucida Sans Unicode;}
+.links-overlay p{font-family: Lucida Sans Unicode;margin: 0 0 5px 0;padding-left: 10px;padding-right: 10px;}
+.nobr{white-space: nowrap;}
+
+
+
+/*页脚*/
+#gb1-ft{overflow: hidden;width: 100%;background-color: #191919;color: #eee;}
+#gb1-ft .innerS{overflow: auto;border: 0;}
+#gb1-ft ul{list-style-type: none;padding-left: 0;font-size: 12px;margin-top: 45px;float: left;width: 55%;}
+#gb1-ft p{width: 435px;margin-top: 30px;font-size: 10px;color: #676767;float: right;font-family: Lucida Sans Unicode;}
+.uppercase{text-transform: uppercase;}
+.casio-usa-link{width: 80px;height: 18px;margin-left: 6px;background-color: #ccc;display: inline-block;background: transparent url(images/casio-usa-logo.png) no-repeat center center;margin-top: 10px;}
+#gb1-ft ul li a{font-size: 10px;color: #fff;text-transform: uppercase;float: left;overflow: auto;margin-right: 15px;font-weight: bold;border-bottom: #191919;font-family: Lucida Sans Unicode;}
