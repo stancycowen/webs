@@ -4,6 +4,8 @@
 	<title>个人信息管理</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.1.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.1.0/css/font-awesome.css">
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
@@ -16,15 +18,94 @@
 				Admin
 			</a>
 			<a href="#" class="toggle-sidebar bs-tooltip">
-				<i class="icon-reorder"></i>
+				<i class="fa fa-reorder fa-fw"></i>
 			</a>
 			<ul class="nav navbar-nav navbar-left hidden-xs hidden-sm">
 				<li>
 					<a href="#">控制台</a>
+
 				</li>
-				<li class="dropdown"></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">下拉菜单
+						<i class="fa fa-caret-down fa-fw small"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+
+							<a href="#">
+								<i class="fa fa-user fa-fw"></i>
+								实例1#
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<i class="fa fa-calendar fa-fw"></i>
+							实例2#</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#">
+							<i class="fa fa-tasks fa-fw"></i>
+							实例3#</a>	
+						</li>
+					</ul>
+				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right"></ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-warning fa-fw warning"></i>
+						<span class="badge">5</span>
+					</a>
+					<ul class="dropdown-menu extended notification">
+						<li class="title">
+							<p>你有5条通知信息。</p>
+						</li>
+						<li>
+							<a href="#">
+								<span class="label label-success">
+									<i class="fa fa-plus fa-fw plus"></i>
+								</span>
+								<span class="message">新用户注册</span>
+								<span class="time">1分钟之前</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="label label-success">
+									<i class="fa fa-plus fa-fw plus"></i>
+								</span>
+								<span class="message">新用户注册</span>
+								<span class="time">1分钟之前</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="label label-success">
+									<i class="fa fa-plus fa-fw plus"></i>
+								</span>
+								<span class="message">新用户注册</span>
+								<span class="time">1分钟之前</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="label label-success">
+									<i class="fa fa-plus fa-fw plus"></i>
+								</span>
+								<span class="message">新用户注册</span>
+								<span class="time">1分钟之前</span>
+							</a>
+						</li>
+						<li class="footer"></li>
+					</ul>
+				</li>
+				<li class="dropdown hidden-xs hidden-sm"></li>
+				<li class="dropdown hidden-xs hidden-sm"></li>
+				<li></li>
+				<li class="dropdown"></li>
+				<li class="dropdown user"></li>
+			</ul>
 		</div>
 	</header>
 </body>
