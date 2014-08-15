@@ -1,0 +1,73 @@
+$(function(){
+    $("#a").jscroll({ 
+        W:"15px",    //设置滚动条宽度
+        BgUrl:"url(/images/s_bg2.gif)",    //设置滚动条背景图片地址
+        Bg:"right 0 repeat-y",    //设置滚动条背景图片position,颜色等
+        Bar:{
+            Pos:"bottom",    //设置滚动条初始化位置在底部
+            Bd:{    //设置滚动滚轴边框颜色：鼠标离开(默认)，经过
+                Out:"#a3c3d5",
+                Hover:"#b7d5e6"
+            },
+            Bg:{    //设置滚动条滚轴背景：鼠标离开(默认)，经过，点击
+                Out:"-45px 0 repeat-y",
+                Hover:"-58px 0 repeat-y",
+                Focus:"-71px 0 repeat-y"
+            }
+        },
+        Btn:{
+            btn:true,    //是否显示上下按钮 false为不显示
+            uBg:{    //设置上按钮背景：鼠标离开(默认)，经过，点击
+                Out:"0 0",
+                Hover:"-15px 0",
+                Focus:"-30px 0"
+            },
+            dBg:{    //设置下按钮背景：鼠标离开(默认)，经过，点击
+                Out:"0 -15px",
+                Hover:"-15px -15px",
+                Focus:"-30px -15px"
+            }
+        },
+        Fn:function(){}    //滚动时候触发的方法
+    });
+});
+</script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.jscroll.js"></script>
+<head>
+    <meta charset="UTF-8"/>
+    <title>demo</title>
+    <link rel="stylesheet" type="text/css" href="/css/base.min.css" media="all"/>
+    <style type="text/css">
+    #a{width:500px;overflow:hidden;position:relative;height:200px;background:#f5f5f5;}
+    </style>
+</head>
+<div id="a">
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>测试文字</p>
+        <p>底部</p>
+    </div>
