@@ -4,6 +4,9 @@ ul,li{list-style: none;}
 b,strong{font-weight: bold;}
 a{text-decoration: none;}
 p{margin: 0 0 10px;}
+input[type="text"]{outline: none;}
+body{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color: #555;font-size: 13px;}
+
 
 .navbar{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;}
 .navbar{background: #4d7496;min-height: 48px;filter:none;top: 0;left: 0;z-index: 1030;margin-bottom: 0;padding-left: 0;padding-right: 0;box-shadow: none;border: 0;border-radius: 0;border-bottom: 4px solid #2a4053;}
@@ -76,12 +79,38 @@ p{margin: 0 0 10px;}
 .slimScrollDiv{float: left!important;width: 100%!important;}
 #divider{background: #cccccc;min-height: 100%;position: absolute;margin-left: 250px;right: -1px;width: 8px;border-left: 1px solid #d1d1d1;border-right: 1px solid #d1d1d1;}
 .resizeable{cursor: col-resize;background: url(images/sidebar-divider-dots.png) 2px 50% no-repeat #ececec!important;}
+#sidebar-content{float: left;width: 100%!important;}
+.slimScrollBar{width: 5px!important;background-color: #878787!important;right: 0!important;border-left: 1px solid #555;border-right: 1px solid #555;box-sizing: content-box;}
+/*左边搜索*/
+.sidebar-search{margin: 15px;margin-right: 23px;}
+.input-box{border-bottom: 1px solid #d9d9d9!important;padding-bottom: 2px;}
+.sidebar-search input{margin: 0;border: 0;box-shadow: none;color: #555;background-color: #f9f9f9!important;}
+.sidebar-search .submit{display: block;float: right;margin-top: 8px;opacity: 0.7;}
+.sidebar-search span{ display: block;overflow: hidden;float: left;line-height: 31px;}
 
+/*左边菜单内容*/
+#nav li{display: block;margin: 0;padding: 0;border: 0;border-bottom: 1px solid #ebebeb;}
+#nav .current{background: #fdfdfd;}
+.current a{border-right: 12px solid #668eb0!important;}
+#nav li a{display: block;position: relative;margin: 0;border: 0;padding: 15px 15px;padding-left: 20px;color: #555;text-decoration: none;text-shadow:0 1px 0 #fff;font-size: 13px;font-weight: 600;text-transform: uppercase;}
+#nav li a i{color: #6f6f6f;padding-right: 10px;float: left;line-height: 20px;}
+.pull-right{position: absolute;right: 15px;margin-right: 20px; float: right!important;}
+.label{padding: 5px 4px;text-shadow:none;font-size: 10px;font-weight: normal;}
+.arrow{line-height: 20px;position: absolute;right: 10px;}
+.label-info{background-color: #658db3;}
+.label{display: inline;line-height: 1;color: #fff;text-align: center;vertical-align: baseline;}
+.sub-menu{list-style: none;clear: both;font-size: 13px;background: #f1f1f1;border-bottom: 1px solid #fff;}
 
-
-
-
-
-
+/*左边提示栏*/
+.sidebar-title{background-color: #ececec;padding: 10px;font-weight: 600;border-top: 1px solid #b9b9b9;border-bottom: 1px solid #dfdfdf;box-shadow: 0 1px 1px rgba(0,0,0,0.1) inset;font-size: 12px;}
+/*左边提示栏内容*/
+.notifications{margin: 0;padding: 0;list-style: none;}
+.notifications li{padding: 15px;border-bottom: 1px solid #ebebeb;}
+.notifications .col-left{float: left;margin-right: -100%;}
+.notifications .col-right{float: left;width: 100%;}
+.with-margin{margin-left: 35px;}
+.notifications .label{text-align: center;display: inline-block;}
+.notifications .message{white-space: normal;}
+.notifications .time{color: #888;display: block;padding-top: 5px;font-size: 11px;}
 /*右边内容页*/
 #content{background: #fff;margin-left: 250px;overflow: visible;padding-bottom: 30px;min-height: 100%;}

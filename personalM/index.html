@@ -271,7 +271,240 @@
 	<div id="container" class="fixed-header">
 		<div id="sidebar" class="sidebar-fixed">
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
-				
+				<div id="sidebar-content" style="overflow: hidden; width: auto; height: 100%;">
+					<form class="sidebar-search">
+						<div class="input-box">
+							<button type="submit" class="submit">
+								<i class="fa fa-search fa-fw"></i>
+							</button>
+							<span>
+								<input type="text" placeholder="搜索..." />
+							</span>
+						</div>
+					</form>
+					<ul id="nav">
+						<li class="current">
+							<a href>
+								<i class="fa fa-dashboard fa-fw"></i>
+								控制台
+							</a>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-desktop fa-fw"></i>
+								UI组件
+								<span class="label label-info pull-right">6</span>
+								<i class="arrow fa fa-angle-left fa-fw"></i>
+							</a>
+							<ul class="sub-menu" style="display:none;">
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										通用
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										按钮
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										文字图标
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										地图
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										滑动条
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										选项卡
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										列表
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										Grid
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-edit fa-fw"></i>
+								表单元素
+								<i class="arrow fa fa-angle-left fa-fw"></i>
+							</a>
+							<ul class="sub-menu" style="display:none;">
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										表单组件
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										表单布局
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										表单验证
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										表单提示
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-table fa-fw"></i>
+								表格
+								<i class="arrow fa fa-angle-left fa-fw"></i>
+							</a>
+							<ul class="sub-menu" style="display:none;">
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										静态表格
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										动态表格
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										响应式表格
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-bar-chart-o fa-fw"></i>
+								图标 & 统计
+							</a>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-folder-open fa-fw"></i>
+								页面
+								<i class="arrow fa fa-angle-left fa-fw"></i>
+							</a>
+							<ul class="sub-menu" style="display:none;">
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										登录页面
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										个人资料页面
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										日历页面
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										购物清单页面
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-angle-right fa-fw"></i>
+										404错误页面
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>
+								<i class="fa fa-list-ol fa-fw"></i>
+								4级菜单
+								<i class="arrow fa fa-angle-left fa-fw"></i>
+							</a>
+							<ul class="sub-menu" style="display:none;">
+								<li>
+									<a href="#">
+										<i class="fa fa-cogs fa-fw"></i>
+										Item1
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-globe fa-fw"></i>
+										Item2
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-folder-open fa-fw"></i>
+										Item3
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="sidebar-title">
+						<span>提示</span>
+					</div>
+					<ul class="notifications demo-slide-in">
+						<li>
+							<div class="col-left">
+								<span class="label label-danger">
+									<i class="fa fa-warning fa-fw plus"></i>
+								</span>
+							</div>
+							<div class="col-right with-margin">
+								<span class="message">
+									服务器
+									<strong>#512</strong>
+									crached
+								</span>
+								<span class="time">几分钟之前</span>
+							</div>
+						</li>
+					</ul>
+					<div class="sidebar-widget align-center"></div>
+					<div class="fill-nav-space"></div>
+				</div>
+				<div class="slimScrollBar" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; height: 164.25487804878048px; background: rgb(0, 0, 0);"></div>
+				<div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div>
 			</div>
 			<div id="divider" class="resizeable" style="margin-left: 250px;"></div>
 		</div>
