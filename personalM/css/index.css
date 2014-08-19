@@ -70,6 +70,17 @@ body{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:
 
 .name{font-weight: bold;}
 
+/*标题栏项目*/
+.project-switcher{background-color: #334d63;}
+.project-list{height: 100%;list-style: none;margin: 0 auto;padding: 30px 10px;text-align: center;}
+.project-list li{display: inline-block;padding: 0 30px;color: #fff;border-right: 1px solid rgba(0,0,0,0.2);}
+.project-list li a{color: #fff;display: block;padding: 15px;opacity: 0.9;}
+.project-list .image{display: block;}
+.project-list .title{padding-top: 10px;font-weight: 600;}
+.project-list .image{font-size: 25px;}
+
+
+
 /*左边导航栏*/
 .fixed-header{margin-top: 52px;}
 #container{position: relative;height: 100%;}
@@ -127,3 +138,5 @@ body{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:
 .sparkline{margin-top: 4px;}
 .graph{float: right;}
 .hidden-xs{display: block;}
+.summary span{color: #888;font-weight: 600;font-size: 11px;text-transform: uppercase;}
+.summary h3{color: #555;margin: 0;font-size: 20px;line-height: 20px;font-weight: 600;}
