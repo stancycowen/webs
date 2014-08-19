@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新用户注册|YOHO!有货</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="header-simple">
+		<div class="screen990">
+			<div class="clear">
+				<div class="left logo">
+					<a href="#">
+						<img src="css/images/logo-boys-8.png">
+					</a>
+				</div>
+				<div class="right">
+					<ul class="simple-items clear">
+						<li class="left">
+							<span class="item">
+								<a href="#" class="rgb2">帮助中心</a>
+							</span>
+						</li>
+						<li class="left">
+							<span class="rgb2 item">
+								<span>
+									<img src="css/images/telephone.bmp">
+								</span>
+								<strong>400-889-9646</strong>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<form id="register_form">
+			<div class="loginnew-box">
+				<div class="login-form">
+					<h2 class="reg-vip">注册会员 REGISTRATION</h2>
+					<div class="main">
+						<dl>
+							<dt>帐号：</dt>
+							<dd>
+								<input name="email" id="regmail" maxlength="100" type="text" class="input_b input_error" style="width:210px;">
+								<span id="regemailTips" class="f_onError">请填写常用邮箱/手机号码！</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt>密码：</dt>
+							<dd>
+								<input name="password" id="passowrd" type="password" class="input_b input_error" maxlength="20" size="20" style="width:210px;" />
+								<span id="passwordTips" class="f_onError">请设置长度为6-20字符的密码！</span>
+								<div class="is0" id="passwordStrengthDiv"></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt>确认密码：</dt>
+							<dd>
+								<input name="repassword" id="repassword" maxlength="20" type="password" class="input_b input_error" style="width:210px;">
+								<span id="regemailTips" class="f_onError">请再次输入你设置的密码！</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt>验证码：</dt>
+							<dd>
+								<input name="verify_code" id="verify_code" maxlength="4" type="text" class="input_b input_error" style="width:60px;">
+								<img src="css/images/verify_code.png" style="height:30px;">
+								<span class="txt">
+									看不清？<br>
+									<a href class="a_eu">换一张</a>
+								</span>
+								<span id="regemailTips" class="f_onError">请输入验证码！</span>
+							</dd>
+						</dl>
+						<div class="stat">
+							<input name="service" id="service" type="checkbox" value="1" checked="checked" />我已阅读并同意遵守
+							<a href class="a_eu">YOHO!有货服务条款</a>
+						</div>
+						<div class="submit">
+							<input name id="btnClientRegister" type="submit" class="btn_b_reg" value="注册" />
+						</div>
+					</div>
+				</div>
+				<div class="login-info">
+					<h3>已经是YOHO!有货会员？</h3>
+					<div class="submit">
+						<a href class="btn_b_h" title="立即登录">立即登录</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="footer"></div>
+</body>
+</html>
