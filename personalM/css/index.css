@@ -34,9 +34,9 @@ body{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:
 .navbar-nav>li>.dropdown-menu{border-top-left-radius: 0;border-top-right-radius: 0;}
 .navbar .dropdown-menu{margin-top: 3px!important;position: absolute!important;background-color: #fff!important;border: 1px solid rgba(0,0,0,0.15);box-shadow: 0 6px 12px rgba(0,0,0,0.175)!important;right: 0;left: auto;}
 .dropdown-menu{border-radius: 0;font-size: 13px;text-align: left;}
-.dropdown-menu{position: absolute;top: 100%;z-index: 1000;display: block;min-width: 160px;float: left;padding: 5px 0;margin: 2px 0 0;background-clip: padding-box;}
+.dropdown-menu{position: absolute;top: 100%;z-index: 1000;display: none;min-width: 160px;float: left;padding: 5px 0;margin: 2px 0 0;background-clip: padding-box;}
 .dropdown-menu>li>a{display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.428571429;color: #333;white-space: nowrap;}
-.dropdown-menu .divider{height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5;}
+.dropdown-menu .divider{height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5!important;}
 .extended{min-width: 180px;max-width: 320px;width: 260px;padding: 0;}
 .extended .title{border-bottom: 0;}
 .extended  li a{font-size: 12px;padding: 10px;white-space: normal;}
@@ -114,3 +114,16 @@ body{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:
 .notifications .time{color: #888;display: block;padding-top: 5px;font-size: 11px;}
 /*右边内容页*/
 #content{background: #fff;margin-left: 250px;overflow: visible;padding-bottom: 30px;min-height: 100%;}
+#content .container{float: left;width: 100%;max-width: none!important;padding: 0 20px;}
+.crumbs{margin: 0 -20px;height: 40px;background: #f9f9f9;border-bottom: 1px solid #d9d9d9;}
+.row{margin-right: -15px;margin-left: 15px;}
+.page-header{padding-bottom: 9px;border-bottom: 1px solid #eee;margin: 40px 0 20px;}
+.page-title{float: left;padding: 25px 0;}
+.page-title h3{margin: 0;margin-bottom: 10px;color: #555;font-weight: 400;font-size: 20px;}
+.page-title span{display: block;font-size: 11px;color: #888;font-weight: normal;}
+.page-stats{float: right;padding: 25px 0;margin-left: 0;list-style: none;}
+.page-stats li{float: left;display: block;margin-left: 20px;padding-left: 20px;border-left: 1px solid #d9d9d9;}
+.page-stats li .summary{float: left;margin-right: 18px;}
+.sparkline{margin-top: 4px;}
+.graph{float: right;}
+.hidden-xs{display: block;}

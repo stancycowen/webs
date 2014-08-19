@@ -21,7 +21,7 @@
 				<i class="fa fa-reorder fa-fw"></i>
 			</a>
 			<ul class="nav navbar-nav navbar-left hidden-xs hidden-sm">
-				<li>
+				<li class="dropdown">
 					<a href="#">控制台</a>
 
 				</li>
@@ -219,7 +219,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li class="dropdown">
 					<a href="#" class="dropdown-toggle row-bg-toggle">
 						<i class="fa fa-arrows-v"></i>
 					</a>
@@ -296,7 +296,7 @@
 								<span class="label label-info pull-right">6</span>
 								<i class="arrow fa fa-angle-left fa-fw"></i>
 							</a>
-							<ul class="sub-menu" style="display:none;">
+							<ul class="sub-menu" style="display:none;" hide="0">
 								<li>
 									<a href="#">
 										<i class="fa fa-angle-right fa-fw"></i>
@@ -353,7 +353,7 @@
 								表单元素
 								<i class="arrow fa fa-angle-left fa-fw"></i>
 							</a>
-							<ul class="sub-menu" style="display:none;">
+							<ul class="sub-menu" style="display:none;" hide="0">
 								<li>
 									<a href="#">
 										<i class="fa fa-angle-right fa-fw"></i>
@@ -386,7 +386,7 @@
 								表格
 								<i class="arrow fa fa-angle-left fa-fw"></i>
 							</a>
-							<ul class="sub-menu" style="display:none;">
+							<ul class="sub-menu" style="display:none;" hide="0">
 								<li>
 									<a href="#">
 										<i class="fa fa-angle-right fa-fw"></i>
@@ -419,7 +419,7 @@
 								页面
 								<i class="arrow fa fa-angle-left fa-fw"></i>
 							</a>
-							<ul class="sub-menu" style="display:none;">
+							<ul class="sub-menu" style="display:none;" hide="0">
 								<li>
 									<a href="#">
 										<i class="fa fa-angle-right fa-fw"></i>
@@ -458,7 +458,7 @@
 								4级菜单
 								<i class="arrow fa fa-angle-left fa-fw"></i>
 							</a>
-							<ul class="sub-menu" style="display:none;">
+							<ul class="sub-menu" style="display:none;" hide="0">
 								<li>
 									<a href="#">
 										<i class="fa fa-cogs fa-fw"></i>
@@ -496,7 +496,34 @@
 									<strong>#512</strong>
 									crached
 								</span>
-								<span class="time">几分钟之前</span>
+							</div>
+						</li>
+						<li>
+							<div class="col-left">
+								<span class="label label-success">
+									<i class="fa fa-plus fa-fw plus"></i>
+								</span>
+							</div>
+							<div class="col-right with-margin">
+								<span class="message">
+									服务器
+									<strong>#512</strong>
+									crached
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="col-left">
+								<span class="label label-info">
+									<i class="fa fa-envelope fa-fw plus"></i>
+								</span>
+							</div>
+							<div class="col-right with-margin">
+								<span class="message">
+									服务器
+									<strong>#512</strong>
+									crached
+								</span>
 							</div>
 						</li>
 					</ul>
@@ -508,7 +535,32 @@
 			</div>
 			<div id="divider" class="resizeable" style="margin-left: 250px;"></div>
 		</div>
-		<div id="content"></div>
+		<div id="content">
+			<div class="container">
+				<div class="page-header">
+					<div class="page-title">
+						<h3>控制台</h3>
+						<span>早上好,Jhon!</span>
+					</div>
+					<ul class="page-stats">
+						<li>
+							<div class="summary">
+								<span></span>
+								<h3></h3>
+							</div>
+							<div id="sparkline-bar" class="graph sparkline hidden-xs"></div>
+						</li>
+						<li>
+							<div class="summary"></div>
+							<div id="sparkline-bar" class="graph sparkline hidden-xs"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<img src="images/quxiantu.bmp">
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
