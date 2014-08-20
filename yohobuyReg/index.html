@@ -45,35 +45,40 @@
 						<dl>
 							<dt>帐号：</dt>
 							<dd>
-								<input name="email" id="regmail" maxlength="100" type="text" class="input_b input_error" style="width:210px;">
-								<span id="regemailTips" class="f_onError">请填写常用邮箱/手机号码！</span>
+								<input name="email" id="regmail" maxlength="100" type="text" class="input_b" style="width:210px;">
+								<span id="regemailTips" class="f_onError" style="display:none;">请填写常用邮箱/手机号码！</span>
+								<span id="regemailTips" class="f_onFalse" style="display:none;">请输入正确的邮箱</span>
+								<span id="regemailTips" class="f_onShow">请填写常用邮箱/手机号码！</span>
 							</dd>
 						</dl>
 						<dl>
 							<dt>密码：</dt>
 							<dd>
-								<input name="password" id="passowrd" type="password" class="input_b input_error" maxlength="20" size="20" style="width:210px;" />
-								<span id="passwordTips" class="f_onError">请设置长度为6-20字符的密码！</span>
+								<input name="password" id="passowrd" type="password" class="input_b" maxlength="20" size="20" style="width:210px;" />
+								<span id="passwordTips" class="f_onError" style="display:none;">请设置长度为6-20字符的密码！</span>
+								<span id="regemailTips" class="f_onShow" style="display:none;">请设置长度为6-20字符的密码！</span>
 								<div class="is0" id="passwordStrengthDiv"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt>确认密码：</dt>
 							<dd>
-								<input name="repassword" id="repassword" maxlength="20" type="password" class="input_b input_error" style="width:210px;">
-								<span id="regemailTips" class="f_onError">请再次输入你设置的密码！</span>
+								<input name="repassword" id="repassword" maxlength="20" type="password" class="input_b" style="width:210px;">
+								<span id="regemailTips" class="f_onError" style="display:none;">请再次输入你设置的密码！</span>
+								<span id="regemailTips" class="f_onShow" style="display:none;">请再次输入你设置的密码！</span>
 							</dd>
 						</dl>
 						<dl>
 							<dt>验证码：</dt>
 							<dd>
-								<input name="verify_code" id="verify_code" maxlength="4" type="text" class="input_b input_error" style="width:60px;">
+								<input name="verify_code" id="verify_code" maxlength="4" type="text" class="input_b" style="width:60px;">
 								<img src="css/images/verify_code.png" style="height:30px;">
 								<span class="txt">
 									看不清？<br>
 									<a href class="a_eu">换一张</a>
 								</span>
-								<span id="regemailTips" class="f_onError">请输入验证码！</span>
+								<span id="regemailTips" class="f_onError" style="display:none;">请输入验证码！</span>
+								<span id="regemailTips" class="f_onShow" style="display:none;">请输入验证码！</span>
 							</dd>
 						</dl>
 						<div class="stat">
@@ -94,6 +99,160 @@
 			</div>
 		</form>
 	</div>
-	<div class="footer"></div>
+	<div class="footer">
+		<div class="promise">
+			<div class="screen clear">
+				<div class="left">
+					<span>
+						<img src="css/images/zhengpin.png">
+					</span>
+					<span class="red">100%</span>
+					<span class="rgbf">品牌授权正品</span>
+				</div>
+				<div class="left">
+					<span>
+						<img src="css/images/tuihuo.png">
+					</span>
+					<span class="red">7天</span>
+					<span class="rgbf">品牌授权正品</span>
+				</div>
+				<div class="left">
+					<span>
+						<img src="css/images/kefu.png">
+					</span>
+					<span class="rgbf">客服电话</span>
+					<span class="red">400-889-9646</span>
+					&nbsp;&nbsp;
+					<span class="rgb9">09:00-22:30(周一至周日)</span>
+				</div>
+				<div class="right subscribe footer-right">
+					<input class="rgb6 top" name="subscriberBox" id="subscriberBox" />
+					<span>
+						<img src="css/images/youjian.png">
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="footer-help">
+			<div class="screen clear">
+				<div class="left">
+					<ul class="clear">
+						<li class="left">
+							<p>
+								<span>新手指南</span>
+							</p>
+							<p>
+								<a href>新用户注册</a>
+							</p>
+							<p>
+								<a href>会员登录</a>
+							</p>
+							<p>
+								<a href>订购流程</a>
+							</p>
+							<p>
+								<a href>交易须知</a>
+							</p>
+						</li>
+						<li class="left">
+							<p>
+								<span>付款方式</span>
+							</p>
+							<p>
+								<a href>配送方式</a>
+							</p>
+							<p>
+								<a href>常见付款方式</a>
+							</p>
+							<p>
+								<a href>如何办理退款</a>
+							</p>
+							<p>
+								<a href>发票制度说明</a>
+							</p>
+						</li>
+						<li class="left">
+							<p>
+								<span>配送方式</span>
+							</p>
+							<p>
+								<a href>配送时间及范围</a>
+							</p>
+							<p>
+								<a href>商品验收与签收</a>
+							</p>
+						</li>
+						<li class="left">
+							<p>
+								<span>售后服务</span>
+							</p>
+							<p>
+								<a href>如何办理退换货</a>
+							</p>
+						</li>
+						<li class="left">
+							<p>
+								<span>帮助中心</span>
+							</p>
+							<p>
+								<a href>找回密码</a>
+							</p>
+							<p>
+								<a href>常见问题</a>
+							</p>
+							<p>
+								<a href>谨防诈骗</a>
+							</p>
+						</li>
+						<li class="left">
+							<p>
+								<span>优惠政策</span>
+							</p>
+							<p>
+								<a href>VIP会员制度说明</a>
+							</p>
+							<p>
+								<a href>YOHO币</a>
+							</p>
+							<p>
+								<a href>优惠券</a>
+							</p>
+							<p>
+								<a href>兑换礼品卡</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-link">
+			<div class="screen clear">
+				<div class="left right-flag">
+					<a href class="nofollow">
+						<img src="css/images/credit-flag3.png">
+					</a>
+					<a href class="nofollow">
+						<img src="css/images/isc2.png">
+					</a>
+				</div>
+				<div class="left about-us">
+					<p>
+						<a href>返回首页</a>
+						<span>|</span>
+						<a href>YOHO!有货</a>
+						<span>|</span>
+						<a href>新力传媒</a>
+						<span>|</span>
+						<a href>联系我们</a>
+						<span>|</span>
+						<a href>隐私条款</a>
+						<span>|</span>
+						<a href>友情链接</a>
+					</p>
+					<p>CopyRight © 2007-2016 YOHO!有货 苏ICP备09011225号 NewPower Co. 版权所有</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
