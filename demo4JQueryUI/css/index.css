@@ -1,0 +1,6 @@
+*{ padding: 0;margin: 0;}
+input[type="text"]{outline: none;}
+
+
+#opener{width: 60px;height: 30px;background-color: #dddddd;margin: 50px auto;cursor: pointer;}
+.dateLocation{ margin-left: 30px;}
