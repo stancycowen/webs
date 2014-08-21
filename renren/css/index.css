@@ -1,0 +1,140 @@
+*{ margin: 0;padding: 0;}
+img{ border: 0;}
+ul,li{list-style: none;}
+a{ text-decoration: none;}
+a:link{color: #005eac;text-decoration: none;}
+input[type="text"]{outline: none;}
+input{font-size: 12px;font-family: Tahoma,Verdana,sans-serif,simsun;}
+body{ font-size: 9pt;font-family: Tahoma,Verdana,STHeiTi,simsun,sans-serif;}
+div{ display: block;}
+h1,h2{font-size: 100%;font-weight: normal;}
+dt dl{margin: 0;padding: 0;}
+label{color: #666;cursor: pointer;font-weight: 700;}
+label input{vertical-align: middle;}
+input[type="button"]{color: #fff;background-color: #005eac;border-top: 1px solid #b8d4e8;border-left: 1px solid #b8d4e8;border-right: 1px solid #114680;border-bottom: 1px solid #114680;cursor: pointer;}
+.clearfix{display: block;}
+.clearfix:after,.feed:after,.comment:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+
+
+#header{ width: 100%;height: 74px;}
+#opi{ width: 100%;}
+#footer{ width: 100%;height: 191px;}
+
+.headerBg{ background: url(images/bg.png) repeat-x;height: 74px;}
+.headerInner{ width: 980px;margin: 0 auto;}
+.headerLeft{ float: left;height: 72px;margin-right: 35px;}
+.nav-title{ float: left;background-image: url(images/slogan.png);background-repeat: no-repeat;width: 342px;height: 24px;margin-top: 25px;text-indent: -9999em;} 
+.nav-other{float: right;margin-top: 25px;}
+.menu{ float: left;margin: 0;position: relative;z-index: 10005;zoom:1;}
+.menu a{padding: 0 18px 0 5px;height: 24px;line-height: 24px;display: inline-block;color: #cee1ee;}
+.more{background-color: #fff;background-position: right -12px;color: #333!important;border: 1px solid #323232;border-bottom: 0;position: relative;margin-right: -1px;}
+.show-more{ background-image: url(images/ico_new.png);background-position: right 10px;background-repeat: no-repeat;}
+.dropdown{background: #fff;width: 230px;}
+.menuDropdownBorder{border: 1px solid #323232;}
+.webList{padding: 8px 0;}
+.dropdown ul{list-style: none;padding-left: 15px;}
+.dropdown ul li{float: left;width: 70px;height: 24px;line-height: 24px;}
+.dropdown ul li a{display: block;outline: 0;color: #333;}
+.dropdown ul li a:hover{text-decoration: underline;}
+
+
+/*opi左边*/
+.login-page{margin: 0 auto 20px;width: 980px;}
+.side-column{ width: 220px;height: 692px;margin-right: 35px;background-color: #ebf2fa;border: 1px solid #d4d4d4;border-bottom-color: #aaa;border-top: 0;float: left;}
+.side-column{background: #ebf2fa url(images/sidebar-bg.png) left top no-repeat;margin-top: -2px;position: relative;}
+
+.login-form{padding: 35px 15px 15px;}
+.newStudentReg{margin: 0 15px 30px;padding: 17px 0 15px;}
+.login-corp{letter-spacing: -4px;padding: 0 15px;}
+.login-form dl{line-height: 20px;position: relative;}
+.top label{left: 4px;position: absolute;top: 4px;z-index: 2;background: url(images/ico_new.png) 8px -84px no-repeat;text-indent: -9999em;width: 25px;height: 25px;}
+.input-text{background: transparent;font-size: 14px;height: 32px;padding: 0;margin: 0 0 0 30px;width: 155px;border: 0;}
+.top dd{position: relative;width: 186px;background: #fff url(images/bg.png) 0 -76px no-repeat;border: 1px solid #adb6c9;border-radius: 3px;height: 32px;box-shadow: 0 0 1px #fff;padding: 1px;}
+.pwd dd{position: relative;width: 186px;background: #fff url(images/bg.png) 0 -76px no-repeat;border: 1px solid #adb6c9;border-radius: 3px;height: 32px;box-shadow: 0 0 1px #fff;padding: 1px;}
+.pwd label{left: 4px;position: absolute;top: 4px;z-index: 2;background: url(images/ico_new.png) 8px -115px no-repeat;text-indent: -9999em;width: 25px;height: 25px;}
+.pwd{margin-top: 15px;}
+.labelCheckbox{font-weight: normal;color: #333;float: left;font-size: 12px;line-height: 27px;}
+.labelCheckbox input{margin-right: 5px;width: 13px;}
+.savepassword dd{ float: right;height: 27px;line-height: 27px;}
+dd a{color: #005eac;}
+.login-btn{width: 190px;height: 38px;text-indent: -9999em;border: 0;background: url(images/btn.png) no-repeat;cursor: pointer;margin-top: 5px;}
+#newStudentReg{background: url(images/student-enter.png) no-repeat; padding: 0 0 3px 0;border: 0;}
+.regnow{margin: 0 15px;border-top: 1px solid #d4d4d4;}
+#regnow{background-position: 0 -38px;border: 0;margin-top: 15px;}
+.login-corp dt{letter-spacing: 0;color: #666;padding-bottom: 10px;}
+.login-corp a{background-image: url(images/ico_new.png);background-repeat: no-repeat;}
+.login-corp a{padding-left: 22px;display: inline-block;line-height: 16px;}
+.login-corp dd{letter-spacing: 0;display: inline-block;margin-right: 20px;margin-bottom: 5px;}
+#loginMsn{background-position: 0 -292px;}
+#login360{background-position: 0 -323px;padding-left: 20px;}
+#loginlist,.login-corp{margin-right: 0;}
+#loginTianyi{background-position: 0 -380px;padding-left: 20px;}
+#loginBaidu{background-image: url(images/icon_new.png);background-repeat: no-repeat;background-position: 0 -416px;padding-left: 22px;margin-top: 5px;}
+#loginCnMobile{background-image: url(images/icon_new2.png);background-repeat: no-repeat;background-position: 0 -447px;margin-top: 5px;}
+/*opi右边*/
+.main-column{ float: left;width: 658px;}
+.main-recommend{margin-top: 32px;}
+#adv1{width: 658px;height: 283px;background-image: url(images/adv1.jpg);background-repeat: no-repeat;}
+.intro-phone{width: 660px;height: 315px;margin-top: 20px;margin-bottom: 10px;}
+.leftArea{float: left;width: 267px;}
+.rightArea{margin-left: 10px;float: left;width: 383px;}
+.headerTitle{height: 90px;margin-top: 50px;}
+.followArea{margin-top: 16px;height: 120px;width: 380px;border-bottom: 1px solid #d6dfe4;}
+.moreDownload{margin-top: 13px;color: #888;}
+.moreDownload a{color: #005eac;}
+.moreDownload a:hover{ text-decoration: none;}
+.clickOpen{background: url(images/ico_new.png) no-repeat 420px -28px;display: block;text-align: center;padding: 10px;background-color: #f1f6f9;color: #005eac;cursor: pointer;}
+.clickOpen span{color: #888;}
+
+.twoDiCode{ float: left;margin-right: 10px;}
+.twoCode{display: block;width: 77px;height: 78px;background: url(images/two-di-code-new.jpg) no-repeat;}
+.bigTitle{font-size: 24px;font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;}
+.smallTitle{margin-top: 5px;font-size: 14px;color: #a8a8a8;font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;}
+.twoBtn{width: 380px;height: 40px;}
+.twoBtnMore{color: #888;margin-top: 20px;}
+.android{background: url(images/client-btn.jpg) no-repeat;display: block;width: 143px;height: 40px;float: left;}
+.android{background-position: 0 0;margin-right: 12px;}
+.iphone{background: url(images/client-btn.jpg) no-repeat;display: block;width: 143px;height: 40px;float: left;}
+.iphone{background-position: -154px 0;}
+.moreClient{float: left;}
+.windows{background: url(images/win-sym.jpg) no-repeat;padding-left: 20px;height: 20px;display: block;float: left;}
+.windows{background-position: 0 -22px;}
+/*了解更多*/
+.introMain{padding: 20px 0 0;}
+.moreIntro{text-align: center;margin-bottom: 3px;}
+.clickClose{background: url(images/ico_new.png) no-repeat 420px -28px;display: block;text-align: center;padding: 10px;background-color: #f1f6f9;color: #888;cursor: pointer;}
+.clickClose{background-position: center -55px;height: 14px;display: block;}
+.introTitle{position: relative;text-align: center;margin-bottom: 35px;}
+.introList{overflow: hidden;position: relative; zoom:1;}
+h1{font-size: 32px;font-weight: bold;margin-bottom: 10px;}
+.introTitle p{font-size: 16px;color: #888;line-height: 1.4em;}
+.introRegBtn{background: url(images/btn.png) no-repeat 0 -76px;display: block;width: 114px;height: 30px;text-align: center;font-weight: bold;color: #fff!important;position: absolute;right: 0;bottom: 0;line-height: 30px;}
+.introList li{bottom: -1px;position: relative;border-bottom: 1px solid #ddd;padding: 20px 0;float: left;}
+.fullColumn{width: 658px;clear:both;padding-bottom: 0;}
+.leftMod{width: 350px;}
+.loginMessageIco,.loginProfileIco,.loginPhotoIco{background: url(images/intro-ico-new.png) 0 0 no-repeat;display: block;width: 45px;height: 41px;float: left;margin-right: 28px;}
+.introContent{padding-bottom: 20px;width: 584px;float: right;}
+.introContent img{float: right;}
+.introWord{float: left;width: 230px;border-bottom: 15px;}
+.leftMod .introWord{border-right: 1px solid #ddd;padding-right: 25px;}
+.introWord h3{font-size: 18px;font-weight: bold;margin-bottom: 10px;}
+.introWord p{font-size: 14px;line-height: 24px;color: #666;}
+.loginProfileIco{background-position: 0 -40px;}
+.loginPhotoIco{background-position: 0 -81px;height: 39px;}
+
+
+/*页脚*/
+.main{zoom:1; overflow: hidden;}
+.haoes{clear: both;color: #888;font-family: tahoma,mingliu;font-size: 11px;padding: 8px;background: #f7f7f7;margin-top: 15px;text-align: center;line-height: 25px;}
+.copyright{float: left;color: #808080;width: auto!important;}
+.link{float: right;margin-right: -10px;}
+.link li{display: inline-block;}
+.link li:after{content: "|";color: #aaa;}
+.link a{color: #005eac;}
+.link a:hover{text-decoration: underline;}
+.sitefooter{width: 980px;margin: 0 auto;border-top: 1px solid #cee1ee;padding-top: 10px;overflow: hidden;position: relative;height: 180px;}
+p{ line-height: 1.4em;}
+.haoes a{color: #888;}
+.haoes a:hover{text-decoration: underline;}
+.companyName{ display: block;}

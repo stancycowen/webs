@@ -1,0 +1,30 @@
+*{ padding: 0;margin: 0;}
+a{text-decoration: none;}
+img{ border: 0;}
+ul,li{list-style: none;}
+input[type="text"]:focus{ outline: none;}
+body{font-family: wf_segoe-ui_normal,'Segoe UI',Segoe,'Segoe WP',Tahoma,Verdana,Arial,sans-serif;}
+
+/*页眉*/
+#div{width: 100%;height: auto;}
+.top{ width: 100%;height: 100px;margin: 30px auto;border-bottom: .3em solid #eee;}
+.center{ width: 100%;height: 1507px;}
+.bottom{ width: 100%;height: 471px;border: 1px solid #ccc;}
+.topTitle{ width: 1180px;height: 48px;margin: 0 auto;}
+.topTitleLeftLogo{ width: 578px;height: 48px;float: left;}
+.toptitleRightSearch{ width: 578px;height: 39px;float: right;}
+.topTRSearchContainer{ width: 463px;height: 26px;float: right;position: relative;z-index: 998;background-color: #fff;border: 1px solid #969696;display: inline-block;}
+.searchTextBox{ font-size: .75em;background-color: transparent;height: 21px;color: #000;border: 0;padding: 2px 3px 0 8px;margin-left: 5px;width: 400px;}
+.searchLogo{width: 20px;height: 20px;background-image: url(images/search.ltr.png);float: right;margin: 2px 2px 0 0;}
+/*导航目录*/
+.topColumnLTitle{ display: inline-block;width: 779px;height: 42px;float: left;margin-top: 6px;}
+.topCLeftTitleCommon{width: auto;height: 42px;font-size: 100%;line-height: 42px;float: left;padding-left: 15px;padding-right: 15px;}
+.topCLeftTitleCommon a{color: #1a1a1a;}
+.jiange{ font-size: .688em;content: '∨';margin-left: .35em;font-family: "wf_icons_normal";}
+
+
+
+.topColumn{width: 1180px;height: 42px;margin: auto;}
+.topColumnLeft{ width: 779px;height: 42px;float: left;}
+.topColumnRight{ width: 378px;height: 40px;float: right;text-align: right;}
+.topCRightText{color: #1570a6; margin-top: 15px;display: block;}

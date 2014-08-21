@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>人人网 中国领先的实名制SNS社交网络</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="headerBg">
+			<div class="headerInner">
+				<div class="headerLeft">
+					<h1>
+						<a href="#">
+							<img height="72" width="222" src="css/images/logo_v6.png">
+						</a>
+					</h1>
+				</div>
+				<div class="headerRight">
+					<h2 class="nav-title">中国领先的实名制SNS社交网络</h2>
+					<div class="nav-other">
+						<div class="menu">
+							<a href="#">注册</a>
+						</div>
+						<div class="menu">
+							<a href="#">给我们提建议</a>
+						</div>
+						<div class="menu">
+							<a href="#" class="show-more" id="showmore">更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="opi">
+		<div id="full-page">
+			<div class="login-page clearfix">
+				<div class="side-column">
+					<div class="login-panel">
+						<form method="post" class="login-form">
+							<dl class="top clearfix">
+								<dt>
+									<label for="email">帐号:</label>
+								</dt>
+								<dd style="border-color:rgb(173,182,201);">
+									<input id="textName" type="text" name="email" class="input-text" tabindex="1" value="邮箱/手机号/用户名" style="color:rgb(136,136,136)" />
+								</dd>
+							</dl>
+							<dl class="pwd clearfix">
+								<dt>
+									<label for="email">密码:</label>
+								</dt>
+								<dd style="border-color:rgb(173,182,201);">
+									<input id="userPwd" type="text" name="password" error="请输入密码" class="input-text" tabindex="2" autocomplete="off" style="color:rgb(136,136,136)" value="请输入密码" />
+									<label class="pwdtip" for="password" style="visibility:visible">请输入密码</label>
+								</dd>
+							</dl>
+							<dl class="savepassword clearfix">
+								<dt>
+									<label class="labelCheckbox">
+										<input type="checkbox" />
+										下次自动登录
+									</label>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">忘记密码？</a>
+									</span>
+								</dd>
+							</dl>
+							<dl class="bottom clearfix">
+								<input type="submit" class="login-btn" tabindex="5" />
+							</dl>
+						</form>
+						<div class="regnow">
+							<input type="button" class="input-button login-btn" id="regnow" tabindex="6" />
+						</div>
+						<div class="newStudentReg">
+							<input id="newStudentReg" type="button" class="input-button login-btn" tabindex="7" />
+						</div>
+						<dl class="login-corp">
+							<dt>使用其他帐号登录：</dt>
+							<dd>
+								<a href="#" id="loginMsn">MSN</a>
+							</dd>
+							<dd>
+								<a href="#" id="login360">360</a>
+							</dd>
+							<dd id="loginlist">
+								<a href="#" id="loginTianyi">天翼</a>
+							</dd>
+							<dd>
+								<a href="#" id="loginBaidu">百度</a>
+							</dd>
+							<dd>
+								<a href="#" id="loginCnMobile">中国移动</a>
+							</dd> 
+						</dl>
+					</div>
+				</div>
+				<div class="main-column">
+					<div id="mainRecommend" class="main-recommend" style="display:block;">
+						<div id="adv1"></div>
+						<div class="intro-phone">
+							<div class="leftArea">
+								<img src="css/images/phone-show.jpg">
+							</div>
+							<div class="rightArea">
+								<div class="headerTitle">
+									<div class="twoDiCode">
+										<a href="#" class="twoCode"></a>
+									</div>
+									<div class="bigTitle">人人客户端下载</div>
+									<div class="smallTitle">
+										全新人人用"新"沟通！
+										<br>
+										记录下自己精彩的人生，与好友分享快乐。
+									</div>
+								</div>
+								<div class="followArea">
+									<div class="twoBtn">
+										<a href="#" class="android"></a>
+										<a href="#" class="iphone"></a>
+									</div>
+									<div class="twoBtnMore">
+										<span class="moreClient">更多客户端：</span>
+										<a href="#" class="windows">Windows phone</a>
+									</div>
+								</div>
+								<div class="moreDownload">
+									更多下载：
+									<a href="#">人人桌面 4.2</a>
+									<a href="#">人人游戏大厅2.3</a>
+									<a href="#">同学说</a>
+									<a href="#">人人电台</a>
+								</div>
+							</div>
+						</div>
+						<div class="more-intro">
+							<a id="moreIntro" class="clickOpen">
+								<span>想了解更多人人网功能？</span>
+								点击此处
+							</a>
+						</div>
+					</div>
+					<div class="introBox" id="introDetail" style="display:none;">
+						<div class="moreIntro">
+							<a id="moreIntroClose" class="clickClose"></a>
+						</div>
+						<div class="introMain">
+							<div class="introTitle">
+								<h1 id="fixPosition">人人网概览</h1>
+								<p>帮你记录下自己精彩的人生，与好友分享快乐。</p>
+								<a href="#" class="introRegBtn">立刻注册 </a>
+							</div>
+							<ul class="introList">
+								<li class="fullColumn clearfix">
+									<img src="" class="loginMessageIco">
+									<div class="introContent">
+										<div class="introWord">
+											<h3>
+												新社交时代
+											</h3>
+											<p>
+												找到你以前的同学、同事和好友；
+												<br>
+												增加对好友的认识，结识新朋友；
+												<br>
+												和他们随时联系，关注彼此的动态。
+											</p>
+										</div>
+										<img src="css/images/message-pic.jpg" width="301" height="183">
+									</div>
+								</li>
+								
+								<li class="leftMod clearfix">
+									<img src="" class="loginProfileIco">
+									<div class="introWord">
+										<h3>个人主页</h3>
+										<p>创建个人主页，积累人气，与好友分享生活经历，让大家更好的认识你。</p>
+										<img src="css/images/profile-pic1.jpg" width="228" height="149">
+									</div>
+								</li>
+								
+								<li class="clearfix">
+									<img src="" class="loginPhotoIco">
+									<div class="introWord">
+										<h3>相册</h3>
+										<p>上传生活照片，整理成相册，记录下精彩时刻，让你的照片发挥魅力。</p>
+										<img src="css/images/photo-pic.jpg" width="228" height="149">
+									</div>
+								</li>
+								<!--
+								<li class="leftMod clearfix"></li>
+								<li class="clearfix"></li>
+								<li class="leftMod clearfix"></li>
+								<li class="clearfix"></li>
+								-->
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="sitefooter" style="background:#fff;position: relative;">
+			<div class="main">
+				<span class="copyright">
+					人人网
+					<span>©</span>
+					2014
+				</span>
+				<ul class="link">
+					<li style="margin-right: 3px;">
+						<a href="#">关于我们</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">人人游戏</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">经纬网</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">56网</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">手机应用</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">公共主页</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">开放平台</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">自助广告</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">品牌营销</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">About Us</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">人人集团</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">招聘</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">客服帮助</a>
+					</li>
+					<li style="margin-right: 3px;">
+						<a href="#">隐私</a>
+					</li>
+				</ul>
+			</div>
+			<div class="haoes">
+				<p class="companyName">
+					<span>北京千橡网景科技发展有限公司：</span>
+					<span>文网文[2009]169号</span>
+					<span class="dot">·</span>
+					<a href="#">京ICP证090254号</a>
+					<span class="dot">·</span>
+					<span>京公网安备110000000009号</span>
+					<span class="dot">·</span>
+					<span>甲测资字11002066</span>
+				</p>
+				<span>文化部监督电子邮箱：wlwh@vip.sina.com</span>
+				<span class="dot">·</span>
+				<a href="#">互联网药品信息服务资格证</a>
+				<span class="dot">·</span>
+				<a href="#">北京地区网站联合辟谣平台</a>
+				<br>
+				<p class="specialAdd">
+					<span>文明办网文明上网举报电话：4000803580 举报邮箱：admin@renren.com</span>
+					<a href="#">
+						<img src="css/images/bljubao.gif" width="25" height="24">
+						北京互联网举报中心
+					</a>
+					<a href="#">
+						<img src="css/images/c_2.jpg" width="25" height="24">
+						网络110报警服务
+					</a>
+					<a href="#">
+						<img src="css/images/c_3.jpg" width="25" height="24">
+						北京文化市场举报热线
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="moredownWeb" class="dropdown" style="position: absolute;top: 49px;left: 974px;display: none;z-index: 10001;">
+		<div class="menuDropdownBorder">
+			<div class="webList">
+				<ul class="clearfix">
+					<li>
+						<a href="#">分享</a>
+					</li>
+					<li>
+						<a href="#">应用程序</a>
+					</li>
+					<li>
+						<a href="#">公共主页</a>
+					</li>
+					<li>
+						<a href="#">人人生活</a>
+					</li>
+					<li>
+						<a href="#">人人小组</a>
+					</li>
+					<li>
+						<a href="#">同名同姓</a>
+					</li>
+					<li>
+						<a href="#">校园百科</a>
+					</li>
+					<li>
+						<a href="#">大学百科</a>
+					</li>
+					<li>
+						<a href="#">人人热点</a>
+					</li>
+					<li>
+						<a href="#">人人小站</a>
+					</li>
+					<li>
+						<a href="#">人人逛街</a>
+					</li>
+					<li>
+						<a href="#">人人校招</a>
+					</li>
+					<li>
+						<a href="#">人人寻友</a>
+					</li>
+					<li>
+						<a href="#">人人高考</a>
+					</li>
+					<li>
+						<a href="#">公众平台</a>
+					</li>
+					<li>
+						<a href="#">么么答</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
