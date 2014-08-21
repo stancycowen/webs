@@ -1,7 +1,0 @@
-*{margin: 0;padding: 0;}
-a{ text-decoration: none;}
-
-.SelectAll{width: 879px;margin: 100px auto;font-family: wf_segoe-ui_normal,'Segoe UI',Segoe,'Segoe WP',Tahoma,Verdana,Arial,sans-serif;}
-.SelectTitleCommon{ display: inline-block;height: 29px;line-height: 29px;background-color: #fff;color: #1a1a1a; padding: 0 4px 0 4px;cursor: pointer;}
-.ST1Special{ background-color: #1570a6;color: #fff;}
-.ST2Special{ background-color: #fff;color: #1570a6;}
