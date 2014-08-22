@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;}
+img{border: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;color: #3f729b;}
+body{background: #edeeef url(images/noise-2.png);}
+body{font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;line-height: 20px;color: #222;height: 100%;margin: 0;}
+div{display: block;}
+strong{font-weight: 700;}
+
+/*内容页总*/
+.root{height: 100%;min-width: 320px;}
+.page{position: relative;min-height: 100%;}
+
+
+/*页眉*/
+.timelineFeedPage .top-bar{position: fixed; width: 100%;}
+.top-bar{height: 43px;border-bottom: 1px solid #1c5380;border-bottom-color: rgba(4,40,71,.8);box-shadow: 0 1px 0 rgba(111,151,182,.5)inset,0 -1px 0 rgba(111,151,182,.2)inset,0 1px 1px rgba(0,0,0,.2);background-color: #517fa4;background-image: url(images/noise-1.png),-webkit-linear-gradient(top,#517fa4,#306088);background-position: 50% 50%;z-index: 100;}
+.top-bar-wrapper{position: relative;max-width: 1024px;margin: 0 auto;}
+.top-bar-new .logo{position: absolute;left: 50%;margin-left: -50px!important;}
+.top-bar .logo{height: 35px;width: 97px;background: url(images/shared-assets.png) no-repeat 0 4px;top: 4px;margin: 0;text-indent: -9999em;}
+.top-bar-new .top-bar-left{left: -1px;position: absolute;top: 0;}
+.top-bar-left .top-bar-actions{float: left;display: inline;}
+.top-bar-actions{border-right: 1px solid #5786aa;border-left: 1px solid #06365f;border-left-color: rgba(0,0,0,.1);}
+.top-bar-actions li{position: relative;float: left;display: inline;margin: 0;}
+.top-bar-actions li .link-active{border-left: none;background-color: rgba(6,54,95,.35);box-shadow: -1px 0 0 rgba(255,255,255,.15),inset 0 0 1px rgba(6,54,95,.4),inset 1px 0 1px rgba(6,54,95,.4);}
+.top-bar-actions li a i{display: block;float: left;}
+.top-bar-home i{position: absolute;left: 0;top: 0;margin: 0!important;background: url(images/shared-assets.png) no-repeat 6px -194px;}
+.top-bar-home i{height: 44px!important;width: 44px!important;}
+.top-bar-new .top-bar-right{right: 0;position: absolute;top: 0;}
+.account-state .top-bar-actions{float: right;display: inline;}
+.top-bar-actions li .img-outset{float: left;display: inline;margin: -2px 10px 1px -1px;}
+.top-bar-actions li img{width: 24px;height: 24px;}
+.top-bar-actions li a{position: relative;display: block;height: 20px;padding: 11px 30px 13px 12px;border-right: 1px solid #06365f;border-right-color: rgba(0,0,0,.1);box-shadow: inset 1px 0 0 rgba(255,255,255,.1);text-shadow:0 1px 0 rgba(3,27,47,.5);}
+.img-outset{box-shadow: 0 0 0 1px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2);}
+.account-state a{color: #fff;font-size: 13px;}
+/*内容*/
+.main .wrapper{max-width: 1024px;padding: 43px 0 52px;text-align: center;}
+.wrapper{margin: 0 auto;position: relative;width: 992px;}
+/*内容页左边*/
+.timelineFirst .timelineSidebar{padding-top: 32px;}
+.timelineSidebar{float: left;width: 224px;padding: 16px 0;}
+.timelineBookmark{font-weight: 700;text-shadow:0 1px 0 rgba(255,255,255,.8);line-height: 16px;}
+.timelineBookmark{margin-right: 24px;padding-top: 4px;position: relative;}
+.timelineBookmarkInfoUsername{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;padding-left: 4px;}
+.timelineBookmarkInfoUsername{display: block;text-align: right;font-size: 14px;}
+.timelineBookmarkInfoTimestamp{color: #999;display: block;text-align: right;font-size: 14px;}
+.timelineBookmark .Image{width: 40px;height: 40px;}
+.timelineBookmark .timelineBookmarkAvatar{position: absolute;right: 0;top: 0;}
+.Image{background-size: 100% 100%;}
+.iLoaded{opacity: 1;}
+.timelineCommentAvatar::after,.timelineBookmarkAvatar::after{border-radius: 2px;}
+.timelineCommentAvatar::after,.timelineBookmarkAvatar::after{border: 1px solid rgba(0,0,0,.15);}
+.timelineCommentAvatar::after,.timelineBookmarkAvatar::after{display: block;position: absolute;top: 0;right: 0;bottom: 0;left: 0;content: "";z-index: 1;}
+.timelineBookmarkInfo{padding: 0 52px 0 0;}
+/*内容页右边*/
+.timelineFirst .timelineCenter{padding-top: 32px;}
+.timelineCenter{box-shadow: inset 1px 0 0 rgba(0,0,0,.05),inset -1px 0 0 rgba(0,0,0,.05);}
+.timelineCenter{background: #e0e1e2 url(images/noise-2.png);border: 1px solid rgba(0,0,0,.1);border-width: 0 1px;min-width: 240px;max-width: 512px;padding: 16px 32px;margin-left: 224px;}
+.timelineCard{background: #fafafa;border: 1px solid silver;border-radius: 3px;box-shadow: 0 1px 16px rgba(0,0,0,.1);text-align: left;}
+/*照片*/
+.timelineCard .mediaPhoto{position: relative;padding-bottom: 100%;}
+.timelineCard .mediaPhoto .i-like-big{display: block;width: 100%;height: 100%;position: absolute;top: 0;right: 0;bottom: 0;left: 0;background: url(images/glyph-heart-pop-big.png) no-repeat 50% 50%;z-index: 100;background-size: 40% 40%;opacity: 0;pointer-events: none;}
+.timelineCard .mediaPhoto .timelinePhoto{position: absolute;top: -1px;right: -1px;bottom: -1px;left: -1px;}
+.iLoaded .iWithTransition{transition: opacity 2s;}
+.timelinePhoto{border-radius: 3px 3px 0 0;}
+
+/*赞*/
+.timelineLikes{position: relative;height: 40px;border-bottom: 1px solid #ddd;margin: 1px 0 -1px;background: #e6e6e6 url(images/white-gradient-100px.png) repeat-x 50% 50%;box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);}
+.timelineLikeButton{position: relative;float: left;display: inline;height: 100%;width: 48px;background: url(images/feed-assets.png) no-repeat 8px 6px;border-right: 1px solid #ddd;box-shadow: 1px 0 0 rgba(255,255,255,.9);}
+.timelineLikeButtonAnimation{background: url(images/glyph-heart-pop.png) no-repeat 50% 50%;display: block;position: relative;left: -1px;top: 1px;width: 100%;height: 100%;opacity: 0;z-index: 5;pointer-events:none;background-size: 40px 40px;}
+.mediaMoreButtonContainer{float: right;margin-right: 1px;position: relative;display: inline;height: 100%;width: 48px;}
+.timelineLikes .mediaMoreButton{border-left: 1px solid #ddd;box-shadow: inset 1px 0 0 rgba(255,255,255,.9);}
+.mediaMoreButton{background: url(images/feed-assets.png) no-repeat 7px -94px;display: block;cursor: pointer;height: 100%;width: 48px;}
+.timelineLikeList{line-height: 16px;margin: 0 52px 0 48px;padding: 12px 0 12px 12px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.LikeList{color: #aaa;text-shadow: 0 1px 0 rgba(255,255,255,.8);font-size: 14px;}
+.llRemainingCount,.llNameLink{font-weight: 700;max-width: 150px;overflow: hidden;text-overflow:ellipsis;}
+/*评论*/
+.timelineComments{padding: 0;}
+.timelineComment{margin: 0 0 12px;}
+.timelineCaption{border-bottom: 1px solid #e6e6e6;padding: 12px 12px 11px 48px!important;margin-bottom: 0;word-wrap: break-word;box-shadow: 0 1px 2px rgba(0,0,0,.04);}
+.timelineComment{transition:opacity .2s;text-overflow:ellipsis;}
+.timelineComment{position: relative;}
+.timelineComment{padding: 0 11px 0 48px;}
+.specical{top: 11px!important;}
+.timelineComment .Image{position: absolute;left: 12px;width: 24px;height: 24px;top: 0;}
+.timelineCommentUsername{font-weight: 700;margin: 0 .4em 0 0;font-size: 14px;}
+.timelineCommentUsername,.timelineCommentText{position: relative;top: 1px;}
+.timelineCommentText{font-size: 14px;}
+
+.scrollAreaOpen{overflow-y: auto;}
+.scrollAreaEmpty{padding: 0!important;}
+.scrollAreaInitialized{transition: height .5s ease-out;}
+.scrollArea{position: relative;overflow: hidden;}
+.scrollAreaContents{padding: 0!important;}
+.timelineCommentMore{padding-bottom: 12px;margin: 0;}
+.timelineCommentMore{padding: 0 11px 12px 48px;}
+.timelineCommentMore .timelineCommentText{color: #999;font-weight: 700;cursor: pointer;}
+/*页脚*/
+.timelineFeedPage .page-footer{background: 0 0;border: none;}
+.page-footer{clear: both;overflow: hidden;padding: 8px 0 7px;border-top: 1px solid #ddd;text-align: center;}
