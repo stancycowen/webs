@@ -6,7 +6,8 @@ body{background: #edeeef url(images/noise-2.png);}
 body{font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;line-height: 20px;color: #222;height: 100%;margin: 0;}
 div{display: block;}
 strong{font-weight: 700;}
-
+form input{font-size: 14px;}
+input{font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;border: 1px solid #ccc;box-sizing:border-box;box-shadow: inset 0 1px 1px rgba(0,0,0,.05);}
 /*内容页总*/
 .root{height: 100%;min-width: 320px;}
 .page{position: relative;min-height: 100%;}
@@ -66,7 +67,8 @@ strong{font-weight: 700;}
 
 /*赞*/
 .timelineLikes{position: relative;height: 40px;border-bottom: 1px solid #ddd;margin: 1px 0 -1px;background: #e6e6e6 url(images/white-gradient-100px.png) repeat-x 50% 50%;box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);}
-.timelineLikeButton{position: relative;float: left;display: inline;height: 100%;width: 48px;background: url(images/feed-assets.png) no-repeat 8px 6px;border-right: 1px solid #ddd;box-shadow: 1px 0 0 rgba(255,255,255,.9);}
+.timelineLiked{background-position: 8px -44px;}
+.timelineLikeButton{cursor: pointer; position: relative;float: left;display: inline;height: 100%;width: 48px;background: url(images/feed-assets.png) no-repeat 8px 6px;border-right: 1px solid #ddd;box-shadow: 1px 0 0 rgba(255,255,255,.9);}
 .timelineLikeButtonAnimation{background: url(images/glyph-heart-pop.png) no-repeat 50% 50%;display: block;position: relative;left: -1px;top: 1px;width: 100%;height: 100%;opacity: 0;z-index: 5;pointer-events:none;background-size: 40px 40px;}
 .mediaMoreButtonContainer{float: right;margin-right: 1px;position: relative;display: inline;height: 100%;width: 48px;}
 .timelineLikes .mediaMoreButton{border-left: 1px solid #ddd;box-shadow: inset 1px 0 0 rgba(255,255,255,.9);}
@@ -95,6 +97,38 @@ strong{font-weight: 700;}
 .timelineCommentMore{padding-bottom: 12px;margin: 0;}
 .timelineCommentMore{padding: 0 11px 12px 48px;}
 .timelineCommentMore .timelineCommentText{color: #999;font-weight: 700;cursor: pointer;}
+
+
+.timelineCommentComposer{padding: 12px;margin-top: 0;}
+.timelineCommentComposer{position: relative;}
+.timelineCommentComposer .timelineCommentAvatar{display: none;}
+.timelineCommentComposer .timelineCommentText{top: 0;}
+.timelineCommentTextField{width: 100%;margin: 0;padding: 8px 9px 7px;border-color: #d8d8d8;border-radius: 2px;}
+.fadedTextField{background-color: rgba(255,255,255,.2);}
+
+
+/*内容结尾*/
+.timelineLast .timelineSidebar{padding-bottom: 52px;}
+.timelineSidebar{float: left;width: 224px;padding: 16px 0;}
+.timelineLast .timelineCenter{box-shadow: inset 1px 0 0 rgba(0,0,0,.05),inset -1px 0 0 rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.05);}
+.timelineLast .timelineCenter{padding-bottom: 32px;border-width: 0 1px 1px;border-radius: 0 0 3px 3px;}
+.timelineCenter{background: #e0e1e2 url(images/noise-2.png);min-width: 240px;max-width: 512px;padding: 16px 32px;margin-left: 224px;}
+.button-grey{border: 1px solid #c6c6c6;}
+.button-grey{background-color: #f3f3f3;background-image: -webkit-linear-gradient(top,#f3f3f3,#ddd);background-position: 50% 50%;text-shadow:0 1px 0 rgba(255,255,255,.6);}
+.button-grey{color: #666;}
+.button-large{font-size: 14px;padding: 9px 12px;font-weight: 700;}
+
 /*页脚*/
 .timelineFeedPage .page-footer{background: 0 0;border: none;}
 .page-footer{clear: both;overflow: hidden;padding: 8px 0 7px;border-top: 1px solid #ddd;text-align: center;}
+.timelineFeedPage .page-footer{background: 0 0;border: 0;}
+.page-footer{clear: both;overflow: hidden;padding: 8px 0 7px;border-top: 1px solid #ddd;text-align: center;}
+.page-footer{position: relative;margin-top: -48px;z-index: 20;font-size: 12px;line-height: 16px;}
+.copyright,.page-footer nav{display: inline-block;}
+.page-footer nav{text-transform: uppercase;font-weight: 700;}
+.page-footer nav ul li{float: left;}
+.page-footer nav ul li a:hover{text-decoration: underline;}
+.page-footer .copyright{padding: 8px 6px;margin: 0 0 0 8px;}
+.page-footer a{display: block;padding: 8px 6px;}
+.page-footer p{font-weight: 700;text-transform: uppercase;color: rgba(0,0,0,.3);float: right;}
+.footer-control{width: 578px;margin: 0 auto;}
