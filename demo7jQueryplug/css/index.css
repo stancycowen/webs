@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;}
+
+
+.test{}
+
+
+
+.dropMenu{margin: 50px auto;text-align: center;}
+.dropMenu ul{list-style: none;display: none;border: 1px solid #ccc;}
+.dropMenu ul li{cursor: pointer;}
+.dropMenu ul li:hover{background-color: #ccc;color: #fff;}
+.dropMenu h3{font-size: 18px;font-family: Arial;text-align: center;cursor: pointer;}
